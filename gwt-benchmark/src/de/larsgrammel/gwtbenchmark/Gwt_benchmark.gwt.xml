@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='gwt_benchmark_1'>
+
+  <inherits name='com.google.gwt.user.User'/>
+
+  <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+
+  <entry-point class='de.larsgrammel.gwtbenchmark.client.GWTBenchmark'/>
+
+  <source path='client'/>
+
+</module>
