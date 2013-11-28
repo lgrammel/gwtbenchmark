@@ -23,7 +23,7 @@ class JsArray extends JavaScriptObject {
 	protected JsArray() {
 	}
 
-	public static native JsArray create() /*-{ return new Object(); }-*/;
+	public static native JsArray create() /*-{ return []; }-*/;
 	
 	public final native void add(String e) /*-{ this[length] = e; }-*/;
 	
